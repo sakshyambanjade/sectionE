@@ -16,12 +16,13 @@ import {
 } from 'mdb-react-ui-kit';
 
 export default function App() {
+    
   const [openBasic, setOpenBasic] = useState(false);
-
+  
   return (
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>Section-E</MDBNavbarBrand>
+        <MDBNavbarBrand href='./' class="text-primary">Section-E</MDBNavbarBrand>
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
@@ -33,11 +34,6 @@ export default function App() {
         </MDBNavbarToggler>
         <MDBCollapse navbar open={openBasic}>
           <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
-            <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='./'>
-                Home
-              </MDBNavbarLink>
-            </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBDropdown>
                 <MDBDropdownToggle tag='a' className='nav-link' role='button'>
@@ -53,7 +49,12 @@ export default function App() {
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavbarItem>
-          </MDBNavbarNav>
+            <MDBNavbarItem>
+              <MDBNavbarLink active aria-current='page' href='#'>
+                About
+              </MDBNavbarLink>
+            </MDBNavbarItem>
+            </MDBNavbarNav>
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>

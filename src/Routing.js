@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import { Routes, Route } from "react-router-dom";
 import Home from '../src/pages/Home'
-import Team1 from '../src/pages/Teams/Team1'
-import Team2 from '../src/pages/Teams/Team2'
-import Team3 from '../src/pages/Teams/Team3'
-import Team4 from '../src/pages/Teams/Team4'
-import Team5 from '../src/pages/Teams/Team5'
-import Team6 from '../src/pages/Teams/Team6'
+import Team1 from '../src/pages/Team1/Team1'
+import Team2 from '../src/pages/Team2/Team2'
+import Team3 from '../src/pages/Team3/Team3'
+import Team4 from '../src/pages/Team4/Team4'
+import Team5 from '../src/pages/Team5/Team5'
+import Team6 from '../src/pages/Team6/Team6'
 
 export default class Routing extends Component {
   render() {
