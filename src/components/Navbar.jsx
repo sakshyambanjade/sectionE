@@ -54,6 +54,11 @@ export default function App() {
                 About
               </MDBNavbarLink>
             </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink active aria-current='page' href='#'>
+                Memories
+              </MDBNavbarLink>
+            </MDBNavbarItem>
             </MDBNavbarNav>
         </MDBCollapse>
       </MDBContainer>
