@@ -46,17 +46,18 @@ export default function App() {
                   <MDBDropdownItem link href='./team4'>Team-4</MDBDropdownItem>
                   <MDBDropdownItem link href='./team5'>Team-5</MDBDropdownItem>
                   <MDBDropdownItem link href='./team6'>Team-6</MDBDropdownItem>
+                  <MDBDropdownItem link href='./team7'>Team-7</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='#'>
-                About
+              <MDBNavbarLink active aria-current='page' href='./'>
+              Memories              
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current='page' href='#'>
-                Memories
+              <MDBNavbarLink active aria-current='page' href='./'>
+                 About
               </MDBNavbarLink>
             </MDBNavbarItem>
             </MDBNavbarNav>
