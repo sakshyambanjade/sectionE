@@ -7,6 +7,7 @@ import Team3 from '../src/pages/Team3/Team3'
 import Team4 from '../src/pages/Team4/Team4'
 import Team5 from '../src/pages/Team5/Team5'
 import Team6 from '../src/pages/Team6/Team6'
+import Team7 from '../src/pages/Team7/Team7'
 
 export default class Routing extends Component {
   render() {
@@ -19,6 +20,8 @@ export default class Routing extends Component {
         <Route path="/team4" element={<   Team4  />}/>
         <Route path="/team5" element={<   Team5  />}/>
         <Route path="/team6" element={<   Team6  />}/>
+        <Route path="/team7" element={<   Team7  />}/>
+
       </Routes>
     )
   }
